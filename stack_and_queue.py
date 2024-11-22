@@ -24,6 +24,7 @@ class Stack:
         Args:
             initial - optional list of elements to fill the stack with
         """
+        
 
         # can't have lists (mutable objects in general) as default values as the default
         # is shared among all instances. need to copy here to avoid issues with aliases
